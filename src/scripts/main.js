@@ -1,3 +1,5 @@
+'use strict';
+
 function bullsAndCows(generatedNumber, enteredNumber) {
   const acceptedLength = 4;
 
