@@ -42,4 +42,4 @@ export function bullsAndCows(generatedNumber, enteredNumber) {
   return result;
 }
 
-module.exports = bullsAndCows;
+// module.exports = bullsAndCows;

@@ -1,4 +1,6 @@
-const bullsAndCows = require('../scripts/bullsAndCows.js');
+import { bullsAndCows } from './bullsAndCows.js';
+
+// const bullsAndCows = require('../scripts/bullsAndCows.js');
 const output = document.querySelector('.output');
 let input;
 
