@@ -1,4 +1,4 @@
-function bullsAndCows(generatedNumber, enteredNumber) {
+export function bullsAndCows(generatedNumber, enteredNumber) {
   const acceptedLength = 4;
 
   for (const argument of arguments) {
