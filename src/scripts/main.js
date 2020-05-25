@@ -1,4 +1,4 @@
-const bullsAndCows = require('./bullsAndCows');
+const bullsAndCows = require('../scripts/bullsAndCows.js');
 const output = document.querySelector('.output');
 let input;
 
