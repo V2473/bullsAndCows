@@ -84,10 +84,12 @@ document.querySelector('.start').onclick = function() {
   let text;
 
   if (answer.bulls === 4) {
-    text = document.createTextNode(`WINNER! Answer is ${input}!`);
+    text = document.createTextNode(`🐄🐂🐄🐂WINNER! Answer is ${input}!🐄🐂🐄🐂`);
   } else {
     text = document.createTextNode(`
-    ${input} - Cows: ${answer.cows} Bulls: ${answer.bulls}
+    ${input} - ${
+  '🐄'.repeat(answer.cows)
+} ・ ${'🐂'.repeat(answer.bulls)}
     `);
   }
 
