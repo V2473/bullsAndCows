@@ -88,8 +88,8 @@ document.querySelector('.start').onclick = function() {
   } else {
     text = document.createTextNode(`
     ${input} - ${
-  '🐄'.repeat(answer.cows)
-} ・ ${'🐂'.repeat(answer.bulls)}
+  '🐂'.repeat(answer.bulls)
+} ・ ${'🐄'.repeat(answer.cows)}
     `);
   }
 
